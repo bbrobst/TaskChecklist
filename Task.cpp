@@ -15,6 +15,7 @@ void Task::displayTask() const
 	std::cout << "Task: " << taskName << "\n";
 	std::cout << "Priority Number: " << priority << "\n";
 	std::cout << "Status: " << (isDone ? "Done" : "Not Done") << "\n";
+	std::cout << "\n";
 	
 }
 
